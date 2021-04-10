@@ -1,1 +1,1 @@
-web: yarn run-node
+web: yarn start
