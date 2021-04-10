@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const fs = require('fs')
 const { title } = require('process')
-const PORT = 8080
+const PORT = process.env.PORT || 8080
 const path = require('path')
 
 app.get('/notes', function (req, res) {
